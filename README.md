@@ -13,7 +13,7 @@ It runs CircuitPython and uses the Adafruit NeoPixel library for controlling the
     ![](docs/media/rgb_fleas.gif)
   - Worms  
     ![](docs/media/worms.gif)
-  - Conway's Game of Life: Race War Edition  
+  - Conway's Game of Life: Color Elimination
     ![](docs/media/life.gif)
   - Classic Snake Game  
     ![](docs/media/snake.gif)
