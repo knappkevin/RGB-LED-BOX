@@ -22,7 +22,7 @@ It runs CircuitPython and uses the Adafruit NeoPixel library for controlling the
 ## Future Plans
 - [ ] Support for gravity-oriented animations through an accelerometer
 - [ ] Timed animation slideshows
-- [ ] Mobile app
+- [x] Mobile app
 - [ ] Construction and wiring documentation
 
 ## Hardware Overview
@@ -53,10 +53,9 @@ It runs CircuitPython and uses the Adafruit NeoPixel library for controlling the
 4. Copy the files and folders in `src/` into the CircuitPython root folder
 5. Declare the pins and width of the cube in `code.py`
 
-**3. Bluetooth Connection**
-1. Install a serial Bluetooth terminal app (sends string bytes over BLE with the UART protocol):
-   - **Android**: [Serial Bluetooth Terminal](https://play.google.com/store/apps/details?id=de.kai_morich.serial_bluetooth_terminal&hl=en_US)
-   - **iOS**:
-   - **Windows**: 
-2. Connect to the `CIRCUITPY` device
+**3. Usage**
+1. Install either serial Bluetooth app:
+   - **APK Download (recommended)**: [LED BOX APP](https://github.com/knappkevin/LED-BOX-APP/releases)
+   - **Play Store (easy install)**: [Serial Bluetooth Terminal](https://play.google.com/store/apps/details?id=de.kai_morich.serial_bluetooth_terminal&hl=en_US)
+2. Connect to the microcontroller
 3. Send the name of the desired animation
