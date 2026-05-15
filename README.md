@@ -1,4 +1,4 @@
-# RGB LED Cube Matrix
+# RGB LED BOX
 ![](docs/media/cube16_cutout.png)
 ![](docs/media/cube8_cutout.png)
 
@@ -7,7 +7,7 @@ This project creates a handheld six-sided LED cube featuring animations such as 
 It runs CircuitPython and uses the Adafruit NeoPixel library for controlling the LEDs.  
 
 ## Features
-- BLE Bluetooth Controls
+- [Mobile Bluetooth Controller Application](https://github.com/knappkevin/LED-BOX-APP/releases)
 - Cube traversing animations
   - RGB patterns  
     ![](docs/media/rgb_fleas.gif)
@@ -21,8 +21,7 @@ It runs CircuitPython and uses the Adafruit NeoPixel library for controlling the
 
 ## Future Plans
 - [ ] Support for gravity-oriented animations through an accelerometer
-- [ ] Timed animation slideshows
-- [x] Mobile app
+- [ ] Slideshow mode
 - [ ] Construction and wiring documentation
 
 ## Hardware Overview
@@ -55,7 +54,7 @@ It runs CircuitPython and uses the Adafruit NeoPixel library for controlling the
 
 **3. Usage**
 1. Install either serial Bluetooth app:
-   - **APK Download (recommended)**: [LED BOX APP](https://github.com/knappkevin/LED-BOX-APP/releases)
-   - **Play Store (easy install)**: [Serial Bluetooth Terminal](https://play.google.com/store/apps/details?id=de.kai_morich.serial_bluetooth_terminal&hl=en_US)
+   - **APK Download (recommended custom made)**: [LED BOX APP](https://github.com/knappkevin/LED-BOX-APP/releases)
+   - **Play Store (generic bluetooth)**: [Serial Bluetooth Terminal](https://play.google.com/store/apps/details?id=de.kai_morich.serial_bluetooth_terminal&hl=en_US)
 2. Connect to the microcontroller
 3. Send the name of the desired animation
